@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Dummy reference image for sneaker studio prompt">
+  <rect width="1200" height="1500" fill="#f5f6f3"/>
+  <ellipse cx="600" cy="990" rx="410" ry="80" fill="#cfd8d4"/>
+  <path d="M250 770 C420 680 550 720 690 600 C760 540 850 640 920 780 C760 850 480 880 250 770 Z" fill="#20272b"/>
+  <path d="M360 750 C500 700 650 720 820 730" fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="round"/>
+  <path d="M670 620 L930 790 L880 830 L640 670 Z" fill="#d43d3d"/>
+  <circle cx="500" cy="745" r="18" fill="#ffffff"/>
+  <circle cx="590" cy="725" r="18" fill="#ffffff"/>
+  <circle cx="680" cy="710" r="18" fill="#ffffff"/>
+  <text x="80" y="1340" fill="#20272b" font-family="Arial, sans-serif" font-size="72" font-weight="700">Studio Sneaker</text>
+</svg>
