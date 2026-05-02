@@ -1,0 +1,12 @@
+[
+  {
+    "id": "glass-citrus-study",
+    "title": "Glass Citrus Study",
+    "image": "assets/images/glass-citrus-study.jpg",
+    "prompt": "Translucent citrus slices arranged on rippled glass, hard sunlight casting colored shadows, minimal tabletop, tactile refraction, bright commercial still life.",
+    "type": "Still Life",
+    "tags": ["fruit", "glass", "sunlight"],
+    "notes": "Optional notes about why this prompt is useful.",
+    "createdAt": "2026-05-02"
+  }
+]
