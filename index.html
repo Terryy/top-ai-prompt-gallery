@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Top AI Prompt Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <p class="eyebrow">Copy-ready image prompts</p>
+        <h1>Top AI Prompt Gallery</h1>
+      </div>
+      <div class="actions">
+        <button class="button ghost" id="importButton" type="button">Import</button>
+        <button class="button ghost" id="exportButton" type="button">Export</button>
+        <button class="button primary" id="addButton" type="button">Add image</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Filters and sorting">
+        <label class="search">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="Prompt, title, tag">
+        </label>
+
+        <label>
+          <span>Type</span>
+          <select id="typeFilter">
+            <option value="all">All types</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Tag</span>
+          <select id="tagFilter">
+            <option value="all">All tags</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Sort</span>
+          <select id="sortSelect">
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+            <option value="title">Title</option>
+            <option value="type">Type</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="stats" aria-live="polite">
+        <span id="visibleCount">0 shown</span>
+        <span id="savedCount">0 saved locally</span>
+      </section>
+
+      <section class="gallery" id="gallery" aria-label="Image prompts"></section>
+      <div class="sentinel" id="sentinel" aria-hidden="true"></div>
+    </main>
+
+    <dialog class="entryDialog" id="entryDialog">
+      <form id="entryForm" method="dialog">
+        <div class="dialogHead">
+          <h2>Add image prompt</h2>
+          <button class="iconButton" id="closeDialog" type="button" aria-label="Close">x</button>
+        </div>
+
+        <label>
+          <span>Title</span>
+          <input name="title" required maxlength="90" placeholder="Cinematic glass apple">
+        </label>
+
+        <label>
+          <span>Reference image URL</span>
+          <input name="image" required type="url" placeholder="https://example.com/reference.jpg">
+        </label>
+
+        <label>
+          <span>Prompt</span>
+          <textarea name="prompt" required rows="7" placeholder="Describe the image generation prompt here"></textarea>
+        </label>
+
+        <div class="formGrid">
+          <label>
+            <span>Type</span>
+            <input name="type" placeholder="Product, Portrait, Interior">
+          </label>
+
+          <label>
+            <span>Tags</span>
+            <input name="tags" placeholder="studio, glossy, macro">
+          </label>
+        </div>
+
+        <label>
+          <span>Notes</span>
+          <textarea name="notes" rows="3" placeholder="Optional notes"></textarea>
+        </label>
+
+        <div class="dialogActions">
+          <button class="button ghost" id="resetForm" type="reset">Clear</button>
+          <button class="button primary" type="submit">Save locally</button>
+        </div>
+      </form>
+    </dialog>
+
+    <input id="importFile" type="file" accept="application/json" hidden>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
