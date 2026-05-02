@@ -4,7 +4,7 @@ A static GitHub Pages page for collecting reference images and image prompts.
 
 ## Add a permanent published entry
 
-1. Upload your image to `assets/images/`.
+1. Upload your image to `assets_images/`.
 2. Add a new object to `data/prompts.json`.
 3. Commit and push to GitHub Pages.
 
@@ -14,7 +14,7 @@ Example:
 {
   "id": "my-new-prompt",
   "title": "My New Prompt",
-  "image": "assets/images/my-reference.jpg",
+  "image": "assets_images/my-reference.jpg",
   "prompt": "Your full image prompt...",
   "type": "Product",
   "tags": ["studio", "macro"],
