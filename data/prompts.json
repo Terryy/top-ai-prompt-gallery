@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "dummy-cinematic-watch",
+    "title": "Cinematic Watch",
+    "image": "assets/images/dummy-cinematic-watch.svg",
+    "prompt": "A stainless steel field watch resting on dark volcanic stone, aurora green reflections across the glass, wet macro texture, cinematic side light, shallow depth of field, premium product photography.",
+    "type": "Product",
+    "tags": ["watch", "macro", "cinematic"],
+    "notes": "Dummy starter item. Replace the SVG with a real image later.",
+    "createdAt": "2026-05-02"
+  },
+  {
+    "id": "dummy-glass-citrus",
+    "title": "Glass Citrus",
+    "image": "assets/images/dummy-glass-citrus.svg",
+    "prompt": "Translucent citrus slices arranged on rippled glass, hard sunlight casting colored shadows, minimal tabletop, tactile refraction, bright commercial still life, crisp editorial styling.",
+    "type": "Still Life",
+    "tags": ["fruit", "glass", "sunlight"],
+    "notes": "Dummy starter item. Replace the SVG with a real image later.",
+    "createdAt": "2026-05-01"
+  },
+  {
+    "id": "dummy-portrait-light",
+    "title": "Portrait Light",
+    "image": "assets/images/dummy-portrait-light.svg",
+    "prompt": "Close portrait with red gel rim light and clean teal fill, confident expression, smooth background falloff, high fashion styling, crisp skin detail, 85mm lens look.",
+    "type": "Portrait",
+    "tags": ["portrait", "fashion", "gel light"],
+    "notes": "Dummy starter item. Replace the SVG with a real image later.",
+    "createdAt": "2026-04-30"
+  },
+  {
+    "id": "dummy-interior-chair",
+    "title": "Interior Chair",
+    "image": "assets/images/dummy-interior-chair.svg",
+    "prompt": "A sculptural lounge chair in a quiet daylight studio, warm wood floor, soft linen texture, balanced negative space, editorial interior design photograph, natural shadows.",
+    "type": "Interior",
+    "tags": ["interior", "editorial", "daylight"],
+    "notes": "Dummy starter item. Replace the SVG with a real image later.",
+    "createdAt": "2026-04-29"
+  },
+  {
+    "id": "dummy-sneaker-studio",
+    "title": "Studio Sneaker",
+    "image": "assets/images/dummy-sneaker-studio.svg",
+    "prompt": "Modern running shoe floating above a matte surface, precise studio shadow, crisp side profile, black and white palette with one small red accent, ecommerce hero lighting.",
+    "type": "Product",
+    "tags": ["sneaker", "studio", "ecommerce"],
+    "notes": "Dummy starter item. Replace the SVG with a real image later.",
+    "createdAt": "2026-04-28"
+  },
+  {
+    "id": "dummy-rainy-cafe",
+    "title": "Rainy Cafe",
+    "image": "assets/images/dummy-rainy-cafe.svg",
+    "prompt": "A small cafe table beside a rain-speckled window, ceramic cup, amber practical lights, muted street reflections, cozy documentary style, realistic atmosphere.",
+    "type": "Lifestyle",
+    "tags": ["cafe", "rain", "documentary"],
+    "notes": "Dummy starter item. Replace the SVG with a real image later.",
+    "createdAt": "2026-04-27"
+  }
+]
