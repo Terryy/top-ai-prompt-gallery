@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Dummy reference image for rainy cafe prompt">
+  <rect width="1200" height="1500" fill="#2e3d42"/>
+  <rect x="120" y="160" width="960" height="780" rx="18" fill="#8aa1a7"/>
+  <g opacity="0.55" stroke="#f5fbff" stroke-width="8" stroke-linecap="round">
+    <line x1="240" y1="240" x2="210" y2="330"/>
+    <line x1="470" y1="190" x2="430" y2="320"/>
+    <line x1="700" y1="260" x2="660" y2="390"/>
+    <line x1="930" y1="230" x2="900" y2="340"/>
+  </g>
+  <ellipse cx="600" cy="1020" rx="350" ry="70" fill="#1c292d"/>
+  <rect x="520" y="820" width="160" height="140" rx="28" fill="#f0d8b5"/>
+  <path d="M680 850 C800 850 800 930 680 930" fill="none" stroke="#f0d8b5" stroke-width="28"/>
+  <circle cx="340" cy="360" r="58" fill="#f6c267" opacity="0.85"/>
+  <circle cx="860" cy="420" r="42" fill="#f6c267" opacity="0.7"/>
+  <text x="80" y="1340" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="700">Rainy Cafe</text>
+</svg>
