@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Dummy reference image for glass citrus prompt">
+  <rect width="1200" height="1500" fill="#fff8dc"/>
+  <circle cx="420" cy="600" r="230" fill="#f8b331"/>
+  <circle cx="760" cy="730" r="260" fill="#f4d35e" opacity="0.9"/>
+  <circle cx="420" cy="600" r="170" fill="none" stroke="#fff5bd" stroke-width="26"/>
+  <circle cx="760" cy="730" r="190" fill="none" stroke="#fff5bd" stroke-width="28"/>
+  <path d="M120 1010 C360 900 640 1120 1080 970" fill="none" stroke="#75a99c" stroke-width="24" opacity="0.55"/>
+  <path d="M150 1100 C470 980 640 1210 1030 1100" fill="none" stroke="#75a99c" stroke-width="18" opacity="0.4"/>
+  <text x="80" y="1340" fill="#855f00" font-family="Arial, sans-serif" font-size="72" font-weight="700">Glass Citrus</text>
+</svg>
